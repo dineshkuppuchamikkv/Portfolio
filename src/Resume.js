@@ -14,7 +14,7 @@ const Resume = () => {
               <div className="resume-viewer">
                
                   <p>Your browser does not support PDF embedding.
-                    You can <a href="/path/to/your/resume.pdf">download the PDF file</a> instead.
+                    You can <a href="DINESH KUMAR K_IT.pdf">download the PDF file</a> instead.
                   </p>
     
               </div>
