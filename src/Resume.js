@@ -13,11 +13,11 @@ const Resume = () => {
           
               <div className="resume-download">
                 <a
-                  href="hi.pdf"
+                  href="Dinesh_Kumar_Resume.pdf"
                   download="Dinesh_Kumar_Resume.pdf"
                   className="btn btn-primary"
                 >
-                  Do You Want My  Resume
+                  Download Resume
                 </a>
               </div>
             </div>
