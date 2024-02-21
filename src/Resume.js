@@ -17,7 +17,7 @@ const Resume = () => {
                   download="Dinesh_Kumar_Resume.pdf"
                   className="btn btn-primary"
                 >
-                  Download Resume
+                  Do You Want My  Resume
                 </a>
               </div>
             </div>
