@@ -1,0 +1,60 @@
+/* About.css */
+
+.about-section {
+    padding: 80px 0;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .about-animation .section-heading {
+    font-size: 36px;
+    margin-bottom: 60px;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  .about-animation .personal-info-item,
+  .about-animation .col-lg-6 h4,
+  .about-animation .col-lg-6 p,
+  .about-animation ul {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 0 30px;
+    }
+  
+    .personal,
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
