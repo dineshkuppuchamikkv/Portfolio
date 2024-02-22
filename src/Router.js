@@ -11,10 +11,11 @@ import RedirectOnReload from './RedirectOnReload';
 const Router = () => (
   <> 
   <Navbar/>
+  <Main/>
  
   <Routes>
  
-      <Route path="/"  element={<Main/>} />
+  
       <Route path="/about"  element={<About/>} />
       <Route path="/Projects"  element={<Project/>} />
       <Route path="/Resume"  element={<Resume/>} />
