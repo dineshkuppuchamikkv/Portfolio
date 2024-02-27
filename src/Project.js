@@ -17,21 +17,22 @@ function Project() {
             <ProjectCard
               imgPath="missing.jpg"
               title="Missing Person Detection Using Ai"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Detecting missing persons using AI involves leveraging various technologies such as computer vision, natural language processing, and data analytics."
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="arvr.jpg"
               title="Augmented Reality"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Designed and implemented an Augmented Reality (AR) application using Unity and Vuforia for virtual interior design experiences."
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath="mente.jpg"
               title="Mentor Management System"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Developed and designed the front-end for a Mentor Management System to streamline mentorship programs. 
+              The system aimed to facilitate efficient mentor-mentee matching and communication."
             />
           </Col>
         </Row>

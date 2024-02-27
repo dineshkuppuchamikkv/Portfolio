@@ -26,6 +26,7 @@ const PingMe = () => {
     setName('');
     setEmail('');
     setMessage('');
+    window.alert("Data Entered Successfully")
   };
 
   return (
